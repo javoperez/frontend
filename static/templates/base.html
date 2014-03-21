@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>No te quedes, Subetech!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/jumbotron.css" rel="stylesheet">
+
+    
+    <link href="/static/css/cutom.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="/static/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://proglabs.co">subetech.proglabs.co</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Subetech!</h1>
+        <p>El transporte en México tiene una gran área de oportunidad en cuanto
+        al uso de tecnologías de punta. Por lo cual nosotros estamos implementando nuestros conocimientos para mejorar la calidad del usuario y de las empresas de transporte, implementando:
+
+<UL type = circle>
+<b>
+<LI>Flexibilidad de Pago
+<LI>Monitoreo de Velocidad y Posición vía GPS
+<LI>Seguridad: Cámaras, sensores, etc
+<LI>Gestión Administrativa
+</UL>
+</b>
+</p>
+ <p><a class="btn btn-primary btn-lg" href="https://subetech.heroku.com/facebook.com" role="button">Comenzar &raquo;</a></p>
+
+    </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Instrumentación</h2>
+          <p>Se cuenta con sensores de presencia para la detección de intrusos, además de alarmas sonoras, visuales, sistema de circuito cerrado, una económica minicomputadora de alto desempeño, etc </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Software</h2>
+          <p>Se utilizaron tecnologías GPS, django, raspberrypi, linux, python para darle al usuario una experiencia inolvidable y práctica. Además de sistemas de encriptamiento, lectura de códigos de barras, entre otras para proporcionarle seguridad informática.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Administración</h2>
+          <p>Gracias a que las acciones son guardadas en la base de datos, la empresa de transporte puede obtener estadísticas beneficiosas sobre el desempeño, cobros, logística, rutas óptimas, etc. Además de tener un completo control sobre la gestión de la página de una forma atractiva y fácil</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+
+        <div class="col-md-4">
+         {% block content%} {% endblock %}
+
+        </div>
+
+      </div>
+
+
+      <hr>
+     
+
+      <footer>
+        <p>&copy; Subetech</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+  </body>
+</html>
